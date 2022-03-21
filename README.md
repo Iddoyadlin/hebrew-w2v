@@ -15,3 +15,7 @@ you can then rerun `python data_preparation/main.py` to create the final corpus 
 to train a model, run `pip install -r requirements_train.txt`. note there might be some conflicts with the hebpipe package.
 you can then run `python main.py`. the code for training the model and the playground notebook were inspired by 
 [this](https://github.com/liorshk/wordembedding-hebrew/blob/master/word2vec.py) repository 
+
+
+## License
+Released under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
