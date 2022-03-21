@@ -40,7 +40,5 @@ if __name__ == "__main__":
     print(f'dumping to {model_dump_path}')
     model = train_model(model_dump_path, seed)
 
-    print('removing non hebrew words from model')
-    remove_non_hebrew_words(model)
     print(f'saving model with {len(model.wv.index_to_key)} vectors')
     model.save(str(model_dump_path))

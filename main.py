@@ -1,5 +1,5 @@
 from base import get_absolute_path
-from train_model import train_model, remove_non_hebrew_words
+from train_model import train_model
 
 if __name__ == "__main__":
     config = {
@@ -11,5 +11,4 @@ if __name__ == "__main__":
     model_dump_path = config['MODEL_PATH']
     tokenized_corpus = config['TOKENIZED_CORPUS']
     model = train_model(tokenized_corpus, seed)
-    remove_non_hebrew_words(model)
     model.save(str(model_dump_path))
