@@ -1,0 +1,10 @@
+{
+  "WIKIFILE": "hewiki-latest-pages-articles.xml.bz2",
+  "CORPUS_OUTPUT": "wiki.he.txt",
+  "SPLIT_CORPUS_EVERY": 100,
+  "SPLIT_CORPUS_OUTPUT_FOLDER": "split_corpus_output",
+  "MODEL_PATH": "model.mdl",
+  "TOKENIZED_CORPUS_FOLDER": "tokenized_output",
+  "TOKENIZED_CORPUS": "wiki_tokenized.he.txt"
+  "SEED": 1984
+}
