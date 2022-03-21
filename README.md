@@ -1,6 +1,7 @@
 # hebrew-w2v
 a complete reproducible example of training a word2vec model for Hebrew. if you do not want to reprepare the data or train,
 you can download the prepared corpus and model from [here](https://drive.google.com/drive/folders/1RDj6Gaa5t4jtd-VtsAqyZWyk6e7o2Xux?usp=sharing).
+basically its the Hebrew wikipedia dump only tokenized with hebpipe, to avoid tokens like "כשכשנבוא".
 
 ## data preparation
 to run data_preparation run `pip install -r requirements_data.txt` and then `python data_preparation/main.py`. 
